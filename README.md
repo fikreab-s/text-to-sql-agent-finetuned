@@ -1,6 +1,9 @@
-# 💬 Text-to-SQL Agent (Fine-Tuned)
+# Text-to-SQL Agent (Fine-Tuned)
 
-> Fine-tuned LFM2.5-1.2B for natural language to SQL translation with schema-aware grounding, execution validation, and error self-correction.
+> Fine-tuned Text-to-SQL agent with schema-aware grounding and self-correction — enabling analysts to query commercial databases in natural language.
+>
+> **Context:** Part of the agentic AI ecosystem built for commercial analytics. Analysts write plain-English questions; the agent generates, validates, and self-corrects SQL queries against our data warehouse schemas.
+
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
