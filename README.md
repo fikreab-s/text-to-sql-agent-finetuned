@@ -60,3 +60,11 @@ This is a **direct component of my enterprise pharma agentic ecosystem**:
 
 ## License
 MIT
+
+## 📸 Visual Tour
+
+![comparison](viz/comparison.png)
+
+![training](viz/training.gif)
+
+---
