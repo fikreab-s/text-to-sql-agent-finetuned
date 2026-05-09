@@ -18,7 +18,7 @@ flowchart LR
 
 ## 🎯 Problem
 
-At Merck, my agentic AI ecosystem includes a Text-to-SQL agent that lets marketing teams query promotional data without writing SQL. This repo fine-tunes LFM2.5 specifically for schema-grounded SQL generation with execution feedback.
+In enterprise pharma, my agentic AI ecosystem includes a Text-to-SQL agent that lets marketing teams query promotional data without writing SQL. This repo fine-tunes LFM2.5 specifically for schema-grounded SQL generation with execution feedback.
 
 ## 🧮 Mathematical Foundation
 
@@ -36,11 +36,11 @@ $$\hat{q}' = \text{LLM}(\text{prompt} = [\text{query: } x, \text{ schema: } \mat
 ### Spider Metric (Component Matching)
 $$F1_{\text{SQL}} = \frac{2 \cdot P_{\text{comp}} \cdot R_{\text{comp}}}{P_{\text{comp}} + R_{\text{comp}}}$$
 
-## 🏥 Merck Connection
+## 🏥 Enterprise Pharma Application
 
-This is a **direct component of my Merck agentic ecosystem**:
+This is a **direct component of my enterprise pharma agentic ecosystem**:
 
-| Merck Agent | This Repo |
+| Enterprise Agent | This Repo |
 |---|---|
 | Text-to-SQL agent for PromoFIT | Schema-grounded SQL generation |
 | "What was the ROI for Digital in Q3?" | NL → SQL → execution → explanation |
@@ -57,12 +57,6 @@ This is a **direct component of my Merck agentic ecosystem**:
 | + SFT (Spider) | 62% | 45% | 32% |
 | + SFT (Spider + BIRD) | 68% | 55% | 45% |
 | + Self-correction loop | **74%** | **61%** | **72%** |
-
-## 🔗 Liquid AI Connection
-- Text-to-SQL is a top enterprise use case for small models
-- Schema-grounded generation = reliable structured output
-- Self-correction demonstrates agentic capabilities on LFM2.5
-- Runs fully on-device for data privacy
 
 ## License
 MIT
